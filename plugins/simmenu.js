@@ -160,7 +160,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "⚡› Speed ",
-                                         "description": "Menampilkan Kecepatan Respon カ CUTE IQ-MD",
+                                         "description": "Menampilkan Kecepatan Respon カ BOTWA RANN",
                                          "rowId": ".ping"
                                     }, {
                                          "title": "🗒️› Info ",

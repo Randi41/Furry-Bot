@@ -9,11 +9,11 @@ Contoh : ${_p}${command} Ziv San|Fory`
 if (!text2) throw `Masukkan Teks
 Contoh : ${_p}${command} Ziv San|Fory`
    m.reply('_Proses..._') 
-   let res = `https://api.vhtear.com/logoml?hero=${text}&text=${text}&apikey=xfoifVT7` 
+   let res = `https://saipulanuar.ga/api/textpro/transfomer?text=${text}&apikey=xfoifVT7` 
    conn.sendFile(m.chat, res, `${command}`, wm3, m, false) 
  } 
- handler.help = ['ml'].map(v => v + ' <hero>|<text>') 
+ handler.help = ['transformers'].map(v => v + '<text>') 
  handler.tags = ['textpro'] 
- handler.command = /^(ml)$/i 
+ handler.command = /^(transformers)$/i 
   
  module.exports = handler

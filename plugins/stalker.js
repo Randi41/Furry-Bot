@@ -5,15 +5,15 @@ let split = '|'
 let [text, ...text2] = txt.replace(dude, '').trimStart().split(split)
   text2 = text2.join(split)
 if (!text) throw `Masukkan Teks
-Contoh : ${_p}${command} Ziv San|Fory`
+Contoh : ${_p}${command} id ml`
 if (!text2) throw `Masukkan Teks
-Contoh : ${_p}${command} Ziv San|Fory`
+Contoh : ${_p}${command} server id ml`
    m.reply('_Proses..._') 
-   let res = `https://api.vhtear.com/logoml?hero=${text}&text=${text}&apikey=xfoifVT7` 
+   let res = `https://saipulanuar.ga/api/stalk/ml?id=${text}&server=${text}&apikey=xfoifVT7` 
    conn.sendFile(m.chat, res, `${command}`, wm3, m, false) 
  } 
- handler.help = ['ml'].map(v => v + ' <hero>|<text>') 
+ handler.help = ['mlstalk'].map(v => v + ' <id>|<server>') 
  handler.tags = ['textpro'] 
- handler.command = /^(ml)$/i 
+ handler.command = /^(mlstalk)$/i 
   
  module.exports = handler

@@ -5,15 +5,13 @@ let split = '|'
 let [text, ...text2] = txt.replace(dude, '').trimStart().split(split)
   text2 = text2.join(split)
 if (!text) throw `Masukkan Teks
-Contoh : ${_p}${command} Ziv San|Fory`
-if (!text2) throw `Masukkan Teks
-Contoh : ${_p}${command} Ziv San|Fory`
+Contoh : ${_p}${command} .spam 62857.......`
    m.reply('_Proses..._') 
-   let res = `https://api.vhtear.com/logoml?hero=${text}&text=${text}&apikey=xfoifVT7` 
+   let res = `https://saipulanuar.ga/api/hack/sms?query=${number}&apikey=xfoifVT7` 
    conn.sendFile(m.chat, res, `${command}`, wm3, m, false) 
  } 
- handler.help = ['ml'].map(v => v + ' <hero>|<text>') 
- handler.tags = ['textpro'] 
- handler.command = /^(ml)$/i 
+ handler.help = ['spam'].map(v => v + '<nomor>') 
+ handler.tags = ['random'] 
+ handler.command = /^(spam)$/i 
   
  module.exports = handler
