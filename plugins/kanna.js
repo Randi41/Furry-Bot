@@ -14,11 +14,11 @@ key: {
 						"jpegThumbnail": await (await fetch('https://telegra.ph/file/dd124552c49cb0a55bb83.jpg')).buffer(), //Gambarnye
 					},
 					"title": `Hai ${conn.getName(m.sender)}`, //Kasih namalu 
-					"description": `HAORI - BOTZ MADE BY ZIVFURR ❤️`, 
+					"description": `Rannz Bot Wa Owner Ganteng ❤️`, 
 					"currencyCode": "Rp",
 					"priceAmount1000": "500000",
 					"retailerId": `ppk`,
-					"productImageCount": 999999
+					"productImageCount": 9999999999
 				},
 				    "businessOwnerJid": `0@s.whatsapp.net`
 		}

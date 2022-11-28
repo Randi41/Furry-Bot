@@ -53,7 +53,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) =>�
     const jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60))
     const detikk = Math.floor( lebih % (1000 * 60) / 1000)
-    const ultah = new Date('April 5, 2023 23:59:59')
+    const ultah = new Date('September 10, 2023 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -93,12 +93,12 @@ const fkgif = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(m.chat ? 
-	 { remoteJid: "6282331033919-1625305606@g.us" } : {}) 
+	 { remoteJid: "6285752583246-6289509340893@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text":`CUTE IQ MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
-                 "title": `CUTE IQ MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "text":`RANN BOT WA 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "title": `RANN BOT WA 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
                  'jpegThumbnail': await (await fetch('https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg')).buffer()
                         }
 	                  } 
@@ -108,10 +108,10 @@ const fkgif = {
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
-⚘ *Bot Name: CUTE IQ-MD IQ MD*
-⚘ *Creator: Stah Ziv San*
+⚘ *Bot Name: RANN BOT WA*
+⚘ *Creator: RANN D*
 ⚘ *Contact Owner Bot*
-*http://wa.me/16199961931*
+*http://wa.me/6285752583246*
 ⚘ *Tanggal: ${date}*  
 ⚘ *Jam: ${time} WIB*
 ⚘ *Status: 「 ${mode} 」*
