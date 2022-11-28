@@ -4,8 +4,8 @@ global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some h
 global.thumbt = global.img
 global.fsx = 999999999999
 global.kontak = [
-['16199961931', 'Ziv San', true], 
-['6282179137771', 'HAORI IQ-MD', true] 
+['6285752583246', 'OWNER TAMPAN BOT', true], 
+['6289509340893', 'BOT RANN', true] 
 ]
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -34,25 +34,25 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-global.linkyt = 'https://youtu.be/60yZO4UQKdI'
-global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
-global.linkgc = 'https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID'
-global.linkig = 'https://www.instagram.com/the.sad.boy01'
+global.linkyt = 'https://www.tiktok.com/@rannd_ada10?_t=8Xj9FwTUzwY&_r=1'
+global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 Rann Bot Wa'
+global.linkgc = 'https://chat.whatsapp.com/L9Tmv2P4hrn6nntNph3g98'
+global.linkig = 'https://www.instagram.com/rannd_ada10'
 global.deslink = ''
 global.logo = 'https://telegra.ph/file/1665521d176fbf172d735.jpg'
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = '@the.sad.boy01'
+global.bodlink = '@rannd_ada10'
 
 global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
 global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
 
 //========Url Template Buttons==========//
 global.dtu = '🌏 GROUP OFFICIAL'
-global.urlnya = global.linkgc
+global.urlnya = 'https://chat.whatsapp.com/L9Tmv2P4hrn6nntNph3g98'
 
 //============= callButtons ============//
-global.dtc = '𝒄𝒂𝒍𝒍 𝒐𝒘𝒏𝒆𝒓'
-global.phn = '+62 895-3362-82144'
+global.dtc = 'Hub Owner'
+global.phn = '+62 857 5258 3246'
 
 //========== Tampilan Bot =============//
 global.sa = '╭─'
@@ -76,7 +76,7 @@ global.thumbnailUrl = [
 //============= Games ================//
 global.benar = '_*Benar✅*_'
 global.salah = '_*Salah❌*_'
-global.dikit = "dikit lagi, semangat ya :')"
+global.dikit = "dikit lagi, lu bego ya?"
 
 global.multiplier = 100 // The higher, The harder levelup
 
