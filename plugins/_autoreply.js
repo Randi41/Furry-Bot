@@ -49,7 +49,7 @@ let fs = require('fs')
          await this.sendButton(m.chat, !(m.isGroup || m.isPrems) && group ? 'hanya grup' : isBanned ? 'chat banned' : banned ? 'user banned' : 'aktif', wm, !(m.isGroup || m.isPrems) && group ? 'donasi' : isBanned ? 'unban' : banned ? 'minta owner kalo mau di unban' : 'donasi', !(m.isGroup || m.isPrems) && group ? '.donasi' : isBanned ? '.unban' : banned ? '.owner' : '.donasi', m) 
      } 
       
-     if (/@16199961931$/i.test(m.text)) { 
+     if (/@6285752583246$/i.test(m.text)) { 
          await this.sendButtonDoc(m.chat, !(m.isGroup || m.isPrems) && group ? 'hanya grup' : isBanned ? 'chat banned' : banned ? 'user banned' : 'Ngapain Tag Owner Saya?', wm, !(m.isGroup || m.isPrems) && group ? 'donasi' : isBanned ? 'unban' : banned ? 'minta owner kalo mau di unban' : 'donasi', !(m.isGroup || m.isPrems) && group ? '.donasi' : isBanned ? '.unban' : banned ? '.owner' : '.donasi',  m, { 
      quoted: m, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
@@ -67,14 +67,14 @@ let fs = require('fs')
       if (new Date() * 1 - setting.status > 1000) {  
           let _uptime = process.uptime() * 1000  
           let uptime = clockString(_uptime)  
-   const ultah = new Date('April 4, 2023 23:59:59')
+   const ultah = new Date('September 10, 2023 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`☘️ Ultah Ziv San : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+        await this.setBio(`☘️ Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
 ⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Ziv San`).catch(_ => _)  
           setting.status = new Date() * 1  
       } 

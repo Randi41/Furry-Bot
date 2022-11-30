@@ -9,11 +9,11 @@ Contoh : ${_p}${command} Ziv San|Fory`
 if (!text2) throw `Masukkan Teks
 Contoh : ${_p}${command} Ziv San|Fory`
    m.reply('_Proses..._') 
-   let res = `https://saipulanuar.ga/api/maker/youtube-gold-button?text=${text}&apikey=xfoifVT7` 
+   let res = `https://saipulanuar.ga/api/textpro/logo-wolf2?text=${text}&text2=${text}&apikey=xfoifVT7` 
    conn.sendFile(m.chat, res, `${command}`, wm3, m, false) 
  } 
- handler.help = ['ytgold'].map(v => v + '<text>') 
+ handler.help = ['logowolf'].map(v => v + '<text>') 
  handler.tags = ['textpro'] 
- handler.command = /^(ytgold)$/i 
+ handler.command = /^(logowolf)$/i 
   
  module.exports = handler

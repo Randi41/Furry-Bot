@@ -30,8 +30,8 @@ let handler = async (m, { conn, usedPrefix, text }) => {
     let participants = m.isGroup ? groupMetadata.participants : []
     let users = m.isGroup ? participants.find(u => u.id == user) : {}
     if(!users) return conn.reply(m.chat, `*_Target atau Nomor tidak ditemukan, mungkin sudah keluar atau bukan anggota grup ini.*_`, m)
-    if(user === m.sender) return conn.reply(m.chat, `_*Tidak bisa berpacaran dengan diri sendiri.*_`, m)
-    if(user === conn.user.jid) return conn.reply(m.chat, `_*Tidak bisa berpacaran dengan saya. :')*_`, m)
+    if(user === m.sender) return conn.reply(m.chat, `_*Tidak bisa berpacaran dengan diri sendiri jangan jones gitu.*_`, m)
+    if(user === conn.user.jid) return conn.reply(m.chat, `_*Tidak bisa berpacaran dengan saya plsss jangan jones amat. :')*_`, m)
 
     if (typeof global.db.data.users[user] == "undefined") return m.reply("_*Orang yang anda tag tidak terdaftar di dalam database.*_")
     

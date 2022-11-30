@@ -10,14 +10,14 @@ let handler = async (m, { conn, usedPrefix, text, command, args }) => {
     itemCount : 9999999,
     status: 404,
     surface : 404,
-    message: `❏ TIKTOK DOWNLOADER`, 
+    message: `�? TIKTOK DOWNLOADER`, 
     orderTitle: `▮Menu ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/c2c7057129ff6f42095b8.jpg')).buffer(), //Gambarnye
     sellerJid: '0@s.whatsapp.net' 
     }
     }
     }
-    let res = await fetch(`https://botcahx-rest-api.herokuapp.com/api/dowloader/tikok?url=${args[0]}`)
+    let res = await fetch(`https://saipulanuar.ga/api/download/tiktok3?&apikey=xfoifVT7url=${args[0]}`)
     let json = await res.json()
     if (!json.status) return conn.sendButtonLoc(m.chat, 'https://telegra.ph/file/fd56c12d665a14793a1fb.jpg', `Harap masukkan URL sebagai parameter.\n\nContoh: ${usedPrefix + command} https://vt.tiktok.com/ZSdpHWxxG/?k=1`, wm, 'Sip', 'Ok', m)
     let data = json.result
